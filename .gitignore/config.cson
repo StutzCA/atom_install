@@ -1,0 +1,34 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#008f84"
+  "atom-python-run":
+    f5Command: "python3 {file}"
+    f6Command: "python3 {file}"
+  core:
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "wrap-guide"
+      "autocomplete-plus"
+      "autocomplete-snippets"
+      "autosave"
+      "autocomplete-atom-api"
+      "autocomplete-css"
+      "autocomplete-html"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "M+, Consolas, DejaVu Sans Mono, monospace"
+    preferredLineLength: 100
+    softWrap: true
+  "exception-reporting":
+    userId: "8e4aa19f-b728-4fc6-88e6-ae40b70480a9"
+  fonts:
+    fontFamily: "Hermit"
+  "platformio-ide-terminal":
+    core:
+      workingDirectory: "Active File"
+    style:
+      theme: "solarized-light"
+  welcome:
+    showOnStartup: false
